@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
+   <head>
+      <meta charset="utf-8">
+      <title>Smart India Hackathon 2017 Team S.H.I.E.L.D.</title>
+   </head>
 
-<body>
+   <body>
+    <center><H3>We as a team of six. Participated in a competition.</H3></center>
+    <center><H3>Smart India Hackathon 2017. Organised by indian government.</H3></center>
+    <center><H3>We were given a real life problem and asked to submit our solution to the problem in a 5 slide power point presentation.</H3></center>
+    <center><H3>Problem Statement : Monitoring mechanism for passenger throughput time at check-in counters and SHA by AAI at Airports.</H3></center>
+    <center><H3>The Solution that we submited is presented below.</H3></center>
 
-<button onclick="myLocation()"> Click to get Location </button>
-<p id = "myloc"></p>
+    <center><div>
+    <table>
+		<tr><img src="images/Slide1.GIF"></tr>
+		<tr><img src="images/Slide2.GIF"></tr>
+		<tr><img src="images/Slide3.GIF"></tr>
+		<tr><img src="images/Slide4.GIF"></tr>
+		<tr><img src="images/Slide5.GIF"></tr>
+	</table>
+    </div></center>
 
-<script type="text/javascript">
-var loc = document.getElementById('myloc');
-function myLocation(){
-	if(navigator.geolocation){
-		navigator.geolocation.getCurrentPosition(showPosition);
-	}else{
-		loc.innerHTML = "Location Tracking not Possible.";
-	}
-}
-
-function showPosition(position){
-	loc.innerHTML = "Longitude: " + position.coords.longitude + "<br>Latitude: " + position.coords.latitude + "<br>";
-}
-
-</script>
-</body>
+   </body>
 </html>
